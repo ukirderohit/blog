@@ -21,21 +21,23 @@
 </head>
 <body>
 <header role="banner" class="page-header" id="top">
- <h1>Blog title</h1>
- <p>A tag line for the blog</p>
+ <h1>{{site.title}}</h1>
+ <p>{{site.tagline}}</p>
 <nav role="navigation">
 <input type="checkbox" id="menu-toggle">
 <label for="menu-toggle" class="toggle-label"><span>menu</span></label>
 <ul class="menu">
-  <li><a href="index.html" title="Articles">Blog</a></li>
-  <li><a href="about.html" title="learn more">About</a></li>
-  <li><a href="resources.html" title="resources">Resources</a></li>
-  <li><a href="archive.html" title="Archive">Archive</a></li>
+  <li><a href="{{site.baseurl}}/index.html" title="Articles">Blog</a></li>
+  <li><a href="{{site.baseurl}}/about.html" title="learn more">About</a></li>
+  <li><a href="{{site.baseurl}}/resources.html" title="resources">Resources</a></li>
+  <li><a href="{{site.baseurl}}/archive.html" title="Archive">Archive</a></li>
   </ul>
 </header>
 
 <!--COntent Goes Here-->
+{{content}}
 
 <!--Footeer goes here-->
+{% include footer.html %}
 </body>
 </html>
