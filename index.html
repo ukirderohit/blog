@@ -1,20 +1,20 @@
 ---
 layout: default
+title: Welcome
 ---
 
-<div class="home">
 
-  <h2 class="page-heading">Posts</h2>
+{% for post in site.posts %}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        
+<article class='post'>
+  <h1 class='post-title'>
+    <a href="{{ site.path }}{{ post.url }}">
+      {{ post.title }}
+    </a>
+  </h1>
+  <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+  {{ post.content }}
+</article>
 
-        <h3>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>&nbsp;&#45;&nbsp;<small><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></small>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+{% endfor %}
+
