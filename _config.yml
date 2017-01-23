@@ -9,7 +9,10 @@ tagline: "Welcome to Rohit's Blog"
 
 # Build settings
 markdown: kramdown
+kramdown: #stop creating default ids in post
+    auto_ids: false  
 paginate: 4
 paginate_path: '/blog/page:num/'
+permalink: blog/:title
 
 gems: [jekyll-paginate]
