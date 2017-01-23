@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-<div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-
-  <article class="post-content">
-    {{ content }}
-  </article>
-
-</div>
+<main role="main" class="cf">
+<article class="posts">
+ <article role="article">
+        <header>
+            <h2>{{page.title}}</h2>
+        </header>
+        {{content}}
+    </article>
+    </article>
+        {% include sidebar.html %}
+</main>

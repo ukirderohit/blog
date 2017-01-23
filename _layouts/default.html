@@ -36,7 +36,11 @@
 
 <!--COntent Goes Here-->
 {{content}}
-
+	{% if page.id %}
+	{% include footer-post.html% }
+	{% else %}
+	{% include footer.html %}
+	{% endif %}
 <!--Footeer goes here-->
 {% include footer.html %}
 </body>
