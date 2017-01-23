@@ -9,8 +9,8 @@ layout: default
         <header>
             <h2><a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">
                 {{post.title}}</a></h2>
-            <time itemprop="dateCreated" datetime="2015-08-06">
-                {{site.time|}}</time>
+            <time itemprop="dateCreated" datetime="{{post.date}}">
+                {{post.date | date:"%B %-d, %Y"}}</time>
         </header>
         <p>Excerpt text. Mauris interdum nulla a laoreet mattis. Donec sit amet sem massa. Duis arcu diam, lobortis sodales rutrum vel, fringilla ut ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque id erat non magna congue faucibus vel eget risus. Nulla porttitor nisl vel magna egestas consectetur. Pellentesque nisl est, fermentum non lacus eu, venenatis interdum elit. Morbi ornare mauris tristique mauris faucibus, id mattis nibh suscipit. <a href="more url" title="read more" class="more">Read more</a></p>
         <footer>
