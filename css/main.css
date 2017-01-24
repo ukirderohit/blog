@@ -303,7 +303,7 @@ a {
 	line-height: inherit;
 }
 a:hover {
-	color: #889966;
+	color: #374223;
 }
 img, object, embed {
 	max-width: 100%;
@@ -775,7 +775,7 @@ nav li a {
 }
 nav li a:hover {
 	color: white;
-	background: #333;
+	background: #374223;
 }
 /* -------------------------------------------------- 
    article styles
