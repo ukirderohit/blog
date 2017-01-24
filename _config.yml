@@ -6,7 +6,7 @@ url: "http://ukirderohit.me" # the base hostname & protocol for your site
 twitter_username: ukirderohit
 github_username:  ukirderohit
 tagline: "Welcome to Rohit's Blog"
-
+color: "#889966"
 # Build settings
 markdown: kramdown
 kramdown: #stop creating default ids in post
