@@ -3,7 +3,7 @@ Simple jekyll blog
 
 [Demo](http://www.ukirderohit.me/blog)
 
-![blog screenshot]()
+![blog screenshot](http://www.ukirderohit.me/blog/images/blog.JPG)
 
 This is a simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff. It's mobile _first_, fluidly responsive, and delightfully lightweight.
 
