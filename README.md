@@ -110,7 +110,8 @@ This will ensure that the the correct relative path is constructed for your asse
 ## Thanks to the following
 
 * [Jekyll](http://jekyllrb.com)
-
+* [HTML5 Boilerplate](https://html5boilerplate.com/ "html5 boilerplate")
+* [Normalize.css](http://necolas.github.io/normalize.css/ "normalize.css")
 
 ## Contributing
 
