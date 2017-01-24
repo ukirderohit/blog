@@ -2,7 +2,7 @@
 title: "Rohit's Blog"
 description: My Personal Blog
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://blog.ukirderohit.me" # the base hostname & protocol for your site
+url: "http://ukirderohit.me" # the base hostname & protocol for your site
 twitter_username: ukirderohit
 github_username:  ukirderohit
 tagline: "Welcome to Rohit's Blog"
