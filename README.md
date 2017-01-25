@@ -44,7 +44,7 @@ $ bundle install
 $ Start Jekyll server: `jekyll serve`
 ```
 
-Access, [localhost:4000/simplest](http://localhost:4000/blog)
+Access, [localhost:4000/blog](http://localhost:4000/blog)
 
 
 ### Modify the `_config.yml`
