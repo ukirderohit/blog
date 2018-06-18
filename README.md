@@ -1,7 +1,7 @@
 # blog
 Simple jekyll blog
 
-[Demo](http://www.ukirderohit.me/blog)
+[Demo](https://www.ukirderohit.com/blog)
 
 
 This is a simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff. It's mobile _first_, fluidly responsive, and delightfully lightweight.
